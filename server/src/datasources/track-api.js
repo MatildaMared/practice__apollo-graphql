@@ -3,7 +3,7 @@ const { RESTDataSource } = require("apollo-datasource-rest");
 class TrackAPI extends RESTDataSource {
 	constructor() {
 		super();
-		this.baseURL = "https://fake-spacecats-rest-api.cat/";
+		this.baseURL = "https://odyssey-lift-off-rest-api.herokuapp.com/";
 	}
 
 	getTracksForHome() {
